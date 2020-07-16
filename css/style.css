@@ -1,0 +1,22 @@
+html {
+    margin: 0.5;
+    padding: 1;
+    background: #F0F8FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #A52A2A;
+}
+h1 {
+    color: #dc143c59;
+    font-family: 'MuseoModerno', cursive;
+    text-align: left;
+}
+h2 {
+    color: #A52A2A;
+    font-family: 'MuseoModerno', cursive;
+    text-align: left;
+}
+p {
+    text-decoration-color: salmon;
+    color:red;
+    text-align: center;
+}
