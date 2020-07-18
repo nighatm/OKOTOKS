@@ -1,22 +1,84 @@
 html {
-    margin: 0.5;
-    padding: 1;
-    background: #F0F8FF;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #A52A2A;
-}
+    margin: 0;
+    padding: 0.5;
+    background-color:rgb(53, 75, 116);
+    }
 h1 {
     color: #dc143c59;
-    font-family: 'MuseoModerno', cursive;
     text-align: left;
 }
-h2 {
-    color: #A52A2A;
-    font-family: 'MuseoModerno', cursive;
-    text-align: left;
+h3{
+    color:goldenrod;
 }
-p {
-    text-decoration-color: salmon;
-    color:red;
+
+p{ 
+    color:floralwhite;
+}
+
+/* space*/
+div h4{
+    color: white;
+
+}
+    h1 + p {
+    font-family: monospace;}
+
+/* a size and hover*/
+    body > h1{
+        color:gold;
+    }
+/* a size and hover*/
+    a{
+        font-size: 1.1rem;
+    }
+    a:hover {
+        font-size: 1.5rem;
+        
+    }
+   
+    /* unvisited link */
+    a:link {
+    color:white;
+  }
+  
+  /* visited link */
+     a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+     a:hover {
+    color:orange;
+  }
+  
+  /* selected link */
+     a:active {
+    color: brown;
+  }
+/*for footer section*/
+  #footer{
+      color:greenyellow;
+      text-align: center;
+  }
+  /* for menu tabs*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
     text-align: center;
-}
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  /* a text allignment class*/
+  .center-align{
+      text-align: center;
+  }
