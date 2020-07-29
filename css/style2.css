@@ -1,0 +1,18 @@
+html{
+
+    background-image: url(/OKOTOKS/Images/okotoks-pizza-logo.png); 
+}
+div{     
+     
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+        transform: scale(1,1);
+        transform: rotate(180deg);
+
+        background-image: url(/OKOTOKS/Images/pizza2.jpg);
+      }
+p{
+    color: lightcoral;
+}
