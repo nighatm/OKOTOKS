@@ -1,0 +1,127 @@
+@import '_pvariables';
+@import'_pminmax';
+
+
+
+html {
+    margin: 0;
+    padding: 0.5;
+    background-color: $p-background;
+    }
+h1 {
+    color: $font-color-h1;
+    text-align: left;
+    &:hover{
+        @include animate-txt(2s);
+    }
+}
+h3{
+    color:$font-color-h3;
+    &:hover{
+        @include animate-txt(2s);
+    }
+}
+
+p{ 
+    color:$font-color-p;
+
+}
+
+
+
+h4{
+    &:hover{
+        @include decoration-txt();
+    }
+}
+
+p{
+    &:hover{
+        @include animateFont-p(4em, 2s);
+    }
+}
+/* space*/
+div h4{
+    color: white;
+
+}
+    h1 + p {
+    font-family: monospace;}
+
+/* a size and hover*/
+    body > h1{
+        color:gold;
+    }
+/* a size and hover*/
+    a{
+        font-size: 1.1rem;
+    }
+    a:hover {
+        font-size: 1.5rem;
+        
+    }
+   
+    /* unvisited link */
+    a:link {
+    color:white;
+  }
+  
+  /* visited link */
+     a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+     a:hover {
+    color:orange;
+  }
+  
+  /* selected link */
+     a:active {
+    color: brown;
+  }
+/*for footer section*/
+  #footer{
+      color:rgb(55, 78, 20);
+      text-align: center;
+  }
+  /* for menu tabs*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+   
+  
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  /* a text allignment class*/
+  .center-align{
+      text-align: center;
+  }
+
+  /* testing styles*/
+  .div-footer{
+      
+      width: 100%;
+      height: 20vh;
+  }
+
+  .background-dine{
+      background-image: image("Images/dine.jpg");
+      background-image: url("Images/dine.jpg");
+  }
+
+
+ 
+ 

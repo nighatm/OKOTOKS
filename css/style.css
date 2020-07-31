@@ -1,150 +1,120 @@
 html {
-    margin: 0;
-    padding: 0.5;
-    background-color:rgb(53, 75, 116);
-    }
-h1 {
-    color: #dc143c59;
-    text-align: left;
-}
-h3{
-    color:goldenrod;
+  margin: 0;
+  padding: 0.5;
+  background-color: grey;
 }
 
-p{ 
-    color:floralwhite;
+h1 {
+  color: plum;
+  text-align: left;
+}
+
+h1:hover {
+  -webkit-text-decoration: underline dotted olive;
+          text-decoration: underline dotted olive;
+}
+
+h3 {
+  color: brown;
+}
+
+h3:hover {
+  -webkit-text-decoration: underline dotted olive;
+          text-decoration: underline dotted olive;
+}
+
+p {
+  color: darkgreen;
 }
 
 /* space*/
-div h4{
-    color: white;
-
+div h4 {
+  color: white;
 }
-    h1 + p {
-    font-family: monospace;}
+
+h1 + p {
+  font-family: monospace;
+}
 
 /* a size and hover*/
-    body > h1{
-        color:gold;
-    }
+body > h1 {
+  color: gold;
+}
+
 /* a size and hover*/
-    a{
-        font-size: 1.1rem;
-    }
-    a:hover {
-        font-size: 1.5rem;
-        
-    }
-   
-    /* unvisited link */
-    a:link {
-    color:white;
-  }
-  
-  /* visited link */
-     a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-     a:hover {
-    color:orange;
-  }
-  
-  /* selected link */
-     a:active {
-    color: brown;
-  }
+a {
+  font-size: 1.1rem;
+}
+
+a:hover {
+  font-size: 1.5rem;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color: brown;
+}
+
 /*for footer section*/
-  #footer{
-      color:rgb(55, 78, 20);
-      text-align: center;
-  }
-  /* for menu tabs*/
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-  }
-  li {
-    float: left;
-  }
-  li a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-
-  /* a text allignment class*/
-  .center-align{
-      text-align: center;
-  }
-
-  /* testing styles*/
-  .div-footer{
-      
-      width: 100%;
-      height: 20vh;
-  }
-
-  .background-dine{
-      background-image: image("Images/dine.jpg");
-      background-image: url("Images/dine.jpg");
-  }
-
-
- 
-  @media only screen and (min-width: 600px)
-    { 
-    #welcome-note
-    {
-    font-size: 80px;
-        
-    }
-    ul
-    {
-    background-color:goldenrod;
-    
-    }
-    
-    #img-test1{
-        width: 300px;
-        height: 300px;
-    }
-    #img-test2{
-        width: 500px;
-        height: 500px;
-        
-             }           
-    }
-
-    @media only screen and (min-width: 1000px){
-        #body-sec
-        {
-        background-color: deeppink;
-        
-        }
-        #b-img1
-        {
-      
-        height: 400px;
-            
-        }
-        #b-img2
-        {
-            height: 400px;
-            width: 400px;
-        }
-       #footer-sec{
-        background-color: greenyellow;
-                
-                  }
-        #footer-sec:hover{
-        background-color: black;
-        
-    }
-    
+#footer {
+  color: #374e14;
+  text-align: center;
 }
+
+/* for menu tabs*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* a text allignment class*/
+.center-align {
+  text-align: center;
+}
+
+/* testing styles*/
+.div-footer {
+  width: 100%;
+  height: 20vh;
+}
+
+.background-dine {
+  background-image: image("Images/dine.jpg");
+  background-image: url("Images/dine.jpg");
+}
+
+p:hover {
+  font-size: 4em;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+/*# sourceMappingURL=style.css.map */

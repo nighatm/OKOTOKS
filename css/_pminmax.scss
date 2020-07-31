@@ -1,0 +1,14 @@
+@mixin animateFont-p($fontSize, $animationDuration) {
+    font-size: $fontSize;
+    font-weight: bold;
+           }
+
+@mixin decoration-txt(){
+    text-decoration: underline dotted olive;
+      color: crimson;
+}
+
+@mixin animate-txt() {  
+    transition: all $animationDuration ease-in-out;
+      
+}
